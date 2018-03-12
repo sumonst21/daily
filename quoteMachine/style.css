@@ -7,13 +7,16 @@
   	vertical-align: baseline;
 }
 
-body{
-
-}
-
 .container{
 	position: relative;
 	width: auto;
+}
+
+.title{
+	font-weight: 100;
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
 }
 
 .quoteBox{
@@ -22,6 +25,7 @@ body{
 	width: 800px;
 	margin: 5% auto;
 	background-color: #fff;
+	border-bottom: 4px solid #ddd;
 }
 
 button{
@@ -34,11 +38,13 @@ button{
 	font-size: 16px;
 	font-weight: 100;
 	text-transform: uppercase;
+	transition: opacity 0.5s;
 }
 
 button:hover,
 .tweetBtn:hover{
-	opacity: 0.85;
+	opacity: 0.75;
+	transition: opacity 0.5s;
 }
 
 #text{
@@ -52,6 +58,7 @@ button:hover,
 	position: absolute;
 	width: inherit;
 	bottom: 0;
+	margin-bottom: 5px;
 }
 
 .tweetBtn{
@@ -64,6 +71,7 @@ button:hover,
 	margin-left: 10px;
 	position: absolute;
 	border-bottom: 4px solid #a70e27;
+	transition: opacity 0.5s;
 }
 
 .quoteBtn{
@@ -75,7 +83,6 @@ button:hover,
 
 .quoteText{
 	padding: 0 25px;
-	/*margin-bottom: 50px;*/
 }
 
 .quoteText i{
@@ -105,29 +112,21 @@ button:hover,
 	font-size: 30px;
 }
 
-.container{
-
-}
-
 .logo{
 	width: 50px;
 	margin: 50px auto 0;
 	display: block !important;
+	opacity: 0.33;
+	transition: opacity 1s;
 }
 
-.title{
-	font-weight: 100;
-	text-align: center;
-	color: #fff;
-	margin-top: 100px;
+.logo:hover{
+	opacity: 1;
+	transition: opacity 1s;
 }
 
 .shadow{
 	box-shadow: rgb(179, 96, 96) 0px 0px 20px 5px;
-}
-
-.randomColor{
-
 }
 
 .red{
