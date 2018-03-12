@@ -1,12 +1,3 @@
-// $('button').on('mouseenter mouseleave', 
-// 	function(){
-// 	$('button').addClass('flip animated')
-// });
-
-/*
-  Code by Gabriel Nunes
-*/
-
 function inIframe () { try { return window.self !== window.top; } catch (e) { return true; } }
 
 var currentQuote = '', currentAuthor = '';
