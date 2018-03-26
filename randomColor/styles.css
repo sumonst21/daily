@@ -1,0 +1,18 @@
+#colorpad{
+	width: 100vh;
+	height: 100vh;
+	background-color: #fff;
+}
+
+button{
+	height: 50px;
+	width: 200px;
+	margin: 20px auto;
+	display: block;
+	background: #ff5056;
+	color: #fff;
+	font-size: 20px;
+	font-family: monospace;
+	outline: none;
+
+}
