@@ -1,0 +1,33 @@
+<!-- Modified -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>What's My Location?</title>
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<style>
+		*{
+			font-family: Karla, sans-serif;
+		}
+	</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(function(position){
+      $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
+    })
+  }
+  console.log('hello')
+</script>
+</head>
+
+<body>
+	<div id = "data">
+  		<h4>You are here:</h4>
+	</div>
+</body>
+</html>
+
+
+
+

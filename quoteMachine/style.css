@@ -1,0 +1,154 @@
+*{
+	font-family: Karla, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+  	vertical-align: baseline;
+}
+
+.container{
+	position: relative;
+	width: auto;
+}
+
+.title{
+	font-weight: 100;
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.quoteBox{
+	min-height: 300px;
+	border-radius: 5px;
+	width: 800px;
+	margin: 5% auto;
+	background-color: #fff;
+	border-bottom: 4px solid #ddd;
+}
+
+button{
+	height: 50px;
+	background: #c8102e;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+	transition: opacity 0.5s;
+}
+
+button:hover,
+.tweetBtn:hover{
+	opacity: 0.75;
+	transition: opacity 0.5s;
+}
+
+#text{
+	font-size: 30px;
+	color: #999;
+	padding: 30px;
+	line-height: 1.5;
+}
+
+.btns{
+	position: absolute;
+	width: inherit;
+	bottom: 0;
+	margin-bottom: 5px;
+}
+
+.tweetBtn{
+	background-color: #c8102e;
+	padding: 10px;
+	height: 50px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5em;
+	margin-left: 10px;
+	position: absolute;
+	border-bottom: 4px solid #a70e27;
+	transition: opacity 0.5s;
+}
+
+.quoteBtn{
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-bottom: 4px solid #a70e27;
+}
+
+.quoteText{
+	padding: 0 25px;
+}
+
+.quoteText i{
+	font-size: 2em;
+	color: #919191;
+	padding: 20px 0 0 50px;
+}
+
+.quoteAuthor{
+	font-size: 10px;
+	float: right;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+    width: 100%;
+    height: 104px;
+}
+
+.quoteAuthor span{
+	color: #919191;
+    font-size: 25px;
+    right: 25.75%;
+    position: fixed;
+}
+
+.dash{
+	font-size: 30px;
+}
+
+.logo{
+	width: 50px;
+	margin: 50px auto 0;
+	display: block !important;
+	opacity: 0.33;
+	transition: opacity 1s;
+}
+
+.logo:hover{
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.shadow{
+	box-shadow: rgb(179, 96, 96) 0px 0px 20px 5px;
+}
+
+.red{
+	color: #c8102e;
+}
+
+.redBg{
+	background-color: #c8102e;
+}
+
+.lightGrey{
+	color: #ddd;
+}
+
+.darkGrey{
+	color: #333;
+}
+
+.center{
+	text-align: center;
+}
+
+.white{
+	color: #fff;
+}
