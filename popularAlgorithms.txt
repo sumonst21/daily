@@ -1,6 +1,6 @@
 # Popular Algorithms
 
-CareerDevs Assignment - 03/29/18
+CareerDevs Assignment - 03/29/18 - Tim Wheeler
 
 ## First things first, what is an algorithm?
 
