@@ -1,3 +1,5 @@
+//check if all test characters are in test
+
 function mutation(arr) {
 
 	var test = arr[1].toLowerCase();
