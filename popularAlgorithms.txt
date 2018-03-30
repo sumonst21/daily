@@ -1,0 +1,35 @@
+# Popular Algorithms
+
+CareerDevs Assignment - 03/29/18 - Tim Wheeler
+
+## First things first, what is an algorithm?
+
+In short, an algorithm is a set of instructions designed to perform a specific task. Algorithms should also contain these 3 elements...
+
+### 1. It should be finite.
+### 2. It should have well defined instructions.
+### 3. It should be effective.
+
+
+#### 1. The Page Rank Algorithm
+
+The Page Rank algorithm is a tool for evaluating the importance of webpages that is not easy to fool. PageRank is a function that assigns a real number to each page in the Web (or at least to that portion of the Web that has been crawled and its links discovered).This has had an incredible impact on day to day life in the modern world as it's one of the primary algorithms used by Google. Economically speaking, Google generated over $109.65B in 2017 with a current market cap of 720.52B. I chose this because of how relevant this algorithm is in the modern world and the immense number of people that this algorith affects.
+
+[source](http://infolab.stanford.edu/~ullman/mmds/ch5.pdf)
+
+#### 2. The Fourier Transform Algorithm
+
+Fourier Transform decomposes a function of time into the frequencies that make it up. A simple explanation of a Fourier Transform is that it's like a 'recipe finder' of sorts. If you give it a cake, it will return flour, milk, and chocolate. This is an incredibly important algorithm as without it, we may not have the internet, smartphones, and satellites as we know them today. In 2011, the internet had an estimated economic value of $8 trillion, and one could only imagine what that number has snowballed into in 2018. I chose this, because of how important the internet is to the world, and the sheer impact it has brought humankind.
+
+[source](https://www.theatlantic.com/business/archive/2011/11/the-8-trillion-internet-mckinseys-bold-attempt-to-measure-the-e-conomy/247963/)
+
+#### 3. The RSA Algorithm
+
+RSA is an algorithm used by modern computers to encrypt and decrypt messages. Without encryption, there would be no e-commerce, no online banking, and no real way to keep personal information secure. It was estimated in 2016 that the global economic value of e-commerce was $22 trillion. The RSA algorithm has been an integral part in transacting online, and without it the world would be a much different place.
+
+[source](https://economictimes.indiatimes.com/industry/services/retail/global-e-commerce-market-is-worth-22-trillion-unctad/articleshow/53274475.cms)
+
+
+
+
+
