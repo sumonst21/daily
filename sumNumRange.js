@@ -1,4 +1,4 @@
-
+//Sum All Numbers in a Range
 function sumAll(arr) {
 
 	//set storage to 0
