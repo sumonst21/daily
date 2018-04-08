@@ -1,3 +1,5 @@
+//Insert and return lowest possible index for num
+
 function getIndexToIns(arr, num) {
 	
 	arr.sort(function(a,b){
