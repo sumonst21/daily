@@ -1,5 +1,4 @@
 // Remove all falsy values from array
-
 function bouncer(arr) {
 	
 	for(var i = 0; i < arr.length; i++){
