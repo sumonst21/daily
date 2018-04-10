@@ -2,8 +2,11 @@ function myReplace(str, before, after) {
 
     var startStr = str.indexOf(before);
 
-    var replaceStr = str.splice(startStr, 0, after)
+    var splitStr = str.split('')
 
+    var replaceStr = splitStr.splice(startStr, before.length, after)
+
+    var joinStr = replaceStr.join()
 
     return replaceStr;
 }
