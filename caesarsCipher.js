@@ -41,3 +41,5 @@ function rot13(str) {
 	return result.join('');
 
 }
+
+rot13('SERR PBQR PNZC')
