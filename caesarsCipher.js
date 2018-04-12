@@ -2,7 +2,7 @@ function rot13(str) {
 
 	var splitStr = str.split('');
 	var shifted = [];
-	
+	var result = [];
 
 	for(var i = 0; i < splitStr.length; i++){
 	
@@ -15,13 +15,20 @@ function rot13(str) {
 				shifted.push(charCode + 13);
 
 			if(charCode >= 78 && charCode <= 95)
-				shifted.push(charCode - 13)
+				shifted.push(charCode - 13);
 				
-		
 	}
-  
-	console.log(shifted)
 
+	for(j = 0; j < shifted.length; j++){
+		
+		shifted[j].toString();
+
+		result.push(String.fromCharCode(shifted[j]));
+				
+	}
+
+	return result.join(' ');
+  	
 }
 
 // Change the inputs below to test
