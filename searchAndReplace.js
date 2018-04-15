@@ -24,3 +24,5 @@ function myReplace(str, before, after) {
 	//return the array as a string
 	return str.join(' ');
 }
+
+myReplace("Let us get back to more Coding", "Coding", "algorithms")
