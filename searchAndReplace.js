@@ -1,14 +1,26 @@
 function myReplace(str, before, after) {
 
-    var startStr = str.indexOf(before);
+	//split the string into an array
+	str = str.split(' ');
 
-    var splitStr = str.split('')
+	//find where the original word is in the array
+	var startSplice = str.indexOf(before);
 
-    var replaceStr = splitStr.splice(startStr, before.length, after)
+	//check the case of the word to be replacedc
+	var checkCase = before[0];
 
-    var joinStr = replaceStr.join()
+	//if uppercase, change first char of 'after' to uppercase
+	if(checkCase == checkCase.toUpperCase()){
 
-    return replaceStr;
+		after[0] = after.charAt(0).toUpperCase;
+		str.splice(startSplice, 1, after.charAt(0).toUpperCase() + after.slice(1));
+	}
+
+	//otherwise run as normal if lowercase
+	else{
+		str.splice(startSplice, 1, after);
+	}
+	
+	//return the array as a string
+	return str.join(' ');
 }
-
-myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
