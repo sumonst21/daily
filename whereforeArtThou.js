@@ -2,15 +2,23 @@ function whatIsInAName(collection, source) {
   // What's in a name?
   var arr = [];
   // Only change code below this line
+  
+	var srcKeys = Object.keys(source);
 
-	collection.map(function(val){
+  	for(var i in collection){
 
-		if(val == source.first || val.last == source.last){
-			arr.push(val)
-		}			
+	var colKeysArr = Object.keys(collection[i]);
+	var colValsArr = Object.values(collection[i]);
 
-	});
+	var srcKeysArr = Object.keys(source);
+	var srcValsArr = Object.values(source);
+	
+    }
 
-  // Only change code above this line
+	
+
 	return arr;
 }
+
+      
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" })
