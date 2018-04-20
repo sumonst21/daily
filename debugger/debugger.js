@@ -1,42 +1,30 @@
-// function sumFibs(num) {
+function fearNotLetter(str) {
 
-//   var temp = [];
-  
-//   if(num > 0){
-	
-// 	for(var i = 1; i <= num; i+=i){
+  str = str.split('');
 
-// 		temp.push(i)	
-// 	}	
-	
-//   }
-//     return temp;
+	var arr = [];
 
-//   }
-
-// sumFibs(9);
+	var charCode = 0, nextCharCode = 0, nextNextCharCode = 0;
 
 
 
+	for(var i in str){
 
-function sumFibs(num) {
+	arr.push(str[i].charCodeAt());
 
-  var temp = [1,1];
-  
-  if(num > 0){
-	
-	for(var i = 1; i <= num; i=temp[i]+temp[-1]){
+	}
 
-		temp.push(i)
+	for(j in arr){
+
+		if(arr[j] !== arr[j-1] + 1){
+			arr.slice(1, 0, 100)
+// 			console.log(arr[j])
+		}
 		
-	}	
-	
-  }
-  
-  
-    return temp;
+	}
 
-  }
+  return arr;
+}
 
-
-sumFibs(120);
+fearNotLetter("abce");
+fearNotLetter("abce");
