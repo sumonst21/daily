@@ -2,18 +2,20 @@ function whatDayIsIt(){
 	var d = new Date();
 	var day = d.getDay();
 
+	var msg = 'Today is ';
+
 	if(day == '0')
-		return 'Sunday';
+		return msg + 'Sunday';
 	if(day == '1')
-		return 'Monday';
+		return msg + 'Monday';
 	if(day == '2')
-		return 'Tuesday';
+		return msg + 'Tuesday';
 	if(day == '3')
-		return 'Wednesday';
+		return msg + 'Wednesday';
 	if(day == '4')
-		return 'Thursday';
+		return msg + 'Thursday';
 	if(day == '5')
-		return 'Friday';
+		return msg + 'Friday';
 	if(day == '6')
-		return 'Saturday';
+		return msg + 'Saturday';
 }
