@@ -1,42 +1,24 @@
-// function sumFibs(num) {
+function steamrollArray(arr) {
 
-//   var temp = [];
-  
-//   if(num > 0){
-	
-// 	for(var i = 1; i <= num; i+=i){
+	var result = [];
 
-// 		temp.push(i)	
-// 	}	
-	
-//   }
-//     return temp;
+    function flatten(val){
+    	
+    	for(var i = 0; i < val.length; i++)
+        
+        if(Array.isArray(val[i]) ){
+            flatten(val[i])
+        
+        }else{
+			
+            result.push(val[i]);
+        }
+    }
 
-//   }
+	flatten(arr);
 
-// sumFibs(9);
+    return result;  
 
+}
 
-
-
-function sumFibs(num) {
-
-  var temp = [1,1];
-  
-  if(num > 0){
-	
-	for(var i = 1; i <= num; i=temp[i]+temp[-1]){
-
-		temp.push(i)
-		
-	}	
-	
-  }
-  
-  
-    return temp;
-
-  }
-
-
-sumFibs(120);
+steamrollArray([[1,2],[1,[1,3]]])
