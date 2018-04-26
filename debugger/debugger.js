@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function fearNotLetter(str) {
 
   str = str.split('');
@@ -6,8 +7,32 @@ function fearNotLetter(str) {
 
 	var charCode = 0, nextCharCode = 0, nextNextCharCode = 0;
 
+=======
+function steamrollArray(arr) {
 
+	var result = [];
 
+    function flatten(val){
+    	
+    	for(var i = 0; i < val.length; i++)
+        
+        if(Array.isArray(val[i]) ){
+            flatten(val[i])
+        
+        }else{
+			
+            result.push(val[i]);
+        }
+    }
+
+	flatten(arr);
+
+    return result;  
+>>>>>>> 4ec0e3ff7e4abae867ec272e309fbc5ad002b2f1
+
+}
+
+<<<<<<< HEAD
 	for(var i in str){
 
 	arr.push(str[i].charCodeAt());
@@ -28,3 +53,6 @@ function fearNotLetter(str) {
 
 fearNotLetter("abce");
 fearNotLetter("abce");
+=======
+steamrollArray([[1,2],[1,[1,3]]])
+>>>>>>> 4ec0e3ff7e4abae867ec272e309fbc5ad002b2f1
