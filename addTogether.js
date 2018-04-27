@@ -1,7 +1,8 @@
-function addTogether() {
+function addTogether()() {
 
 	var args = arguments;
 
+	return args;
 
 	for(var i in args){
 		if(args[i] != Number)
@@ -11,6 +12,7 @@ function addTogether() {
 		return args[0] + args[1]
 	
 	
+
 
 
 	}

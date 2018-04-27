@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#billCalculator{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+#totalSection{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#totalExpendable,
+#totalExpendableAmount{
+    display: inline-block;
+}
+
+input{
+    height: 50px;
+    min-width: 200px;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
