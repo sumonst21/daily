@@ -21,12 +21,16 @@ var carRental = {
 	checkAvailability: function(carType){
 
 		if(this[carType].numAvailable > 0)
-			return `Good news! We have ${this[carType].numAvailable} ${carType}'s left. Would you like to rent one for $${this[carType].rentalPrice} per day?`;
+
+		
+
+			confirm(`Would you like to rent a ${carType} for $${this[carType].rentalPrice} per day?`);
+
 
 		else{
-			return `Unfortunately we are all out of ${carType}'s, please select another type of vehicle `;
+			return `Unfortunately we're all out of ${carType}'s, please select another type of vehicle `;
 		}
-	}
+	},
 
 }
 
