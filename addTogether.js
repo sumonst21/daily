@@ -1,29 +1,22 @@
-function addTogether()() {
+function addTogether() {
 
 	var args = arguments;
 
-	return args;
+    function sumTwoAnd(arg){ //function that handles a single argument
+             	
+			return arg + 2; //returns argument + 2
+		}
 
-	for(var i in args){
-		if(args[i] != Number)
-			return undefined;
-	
-	if(args.length > 1)
-		return args[0] + args[1]
-	
-	
+	for(var i in args){ 
+		if(args[i] !== Number) //check if argument is a number
+			return undefined; // if not, return undefined
 
-
-
+    else if(args.length == 1) //if there's only one argument, run sumTwoAnd()
+        return sumTwoAnd(args[0])
+		
+		
 	}
-	
-	
-
-
-
-
-
  
 }
 
-addTogether(2)(3);
+addTogether("http://bit.ly/IqT6zt");
