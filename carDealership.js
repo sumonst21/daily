@@ -1,4 +1,4 @@
-var carDealership = {
+var carRental = {
 
 	sedan: {
 		rentalPrice: 80,
@@ -43,4 +43,4 @@ var carDealership = {
 
 }
 
-carDealership.sedan.request()
+carRental.sedan.request()
