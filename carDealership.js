@@ -1,4 +1,4 @@
-var carDealership = {
+var carRental = {
 
 	sedan: {
 		rentalPrice: 80,
@@ -69,5 +69,9 @@ carDealership.checkAvailability('suv');
 
 }
 
+<<<<<<< HEAD
 carDealership.sedan.request()
 >>>>>>> fdf780b1dbd38217a20060ea98d9f6052acf3236
+=======
+carRental.sedan.request()
+>>>>>>> d3735fcedb45fc52182ce7067ca247d424239c0c
