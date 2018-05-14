@@ -1,9 +1,19 @@
+//finders keepers
 function findElement(arr, func) {
 
-	for(var i = 0; i < arr.length; i++){
-		if(func(arr[i]) == true)
-			return arr[i];
-	}
-}
+    var num = 0;
+	var array = arguments[0];
+	var funcArg = arguments[1];
+	var result = [];
+  
 
-findElement([1, 3, 5, 8, 9, 10], function(num){ return num % 2 === 0; });
+	for(var i = 0; i < arr.length; i++){
+	
+		if(funcArg(array[i]) == true){
+			return array[i];
+		}
+          
+        } return undefined;
+	}
+
+findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
