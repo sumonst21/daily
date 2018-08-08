@@ -9,7 +9,6 @@ class MyComponent extends React.Component{
         </div>
       )
     }
-
 }
 
 ReactDOM.render(<MyComponent />, document.getElementById('challenge-node'));
