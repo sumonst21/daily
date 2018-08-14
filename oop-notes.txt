@@ -1,0 +1,16 @@
+The 4 Pillars of OOP
+
+1 Inheritance
+Inheritance allows you to not repeat code by passing properties to different classes and objects, typically through a hierarchy.
+
+2 Polymorphism
+Polymorphism is essentially when you have objects that all contain the same 'base' class, but otherwise can be very different from one another
+
+3 Encapsulation
+Encapsulation is a way to decouple different parts of your application so that when one part is changed, the other part of the app still
+functions as expected without concern for the newly changed part of the app.
+
+4 Abstraction
+Essentially abstraction is a way to take something that's more complex and boil it down to something more simple. For instance, 
+when you turn the volume up on the TV using your remote, there's all kinds of signals and frequencies going on, but really the end-user is just hitting the volume button.
+Abstractions are better suited for when one doesn't care so much as to what's going on under the hood.
