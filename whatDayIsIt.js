@@ -20,4 +20,4 @@ function whatDayIsIt(){
 		return msg + 'Saturday';
 };
 
-console.log(whatDayIsIt());
+console.log(whatDayIsIt())
