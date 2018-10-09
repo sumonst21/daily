@@ -18,4 +18,6 @@ function whatDayIsIt(){
 		return msg + 'Friday';
 	if(day == '6')
 		return msg + 'Saturday';
-}
+};
+
+console.log(whatDayIsIt())

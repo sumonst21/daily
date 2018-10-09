@@ -1,3 +1,5 @@
+console.log('linked')
+
 var carRental = {
 
 	sedan: {
@@ -18,18 +20,23 @@ var carRental = {
 
     },
 
+    adjustAvailability: function(){
+
+    	this[carType].numAvailable--;
+
+    },
+
 	checkAvailability: function(carType){
 
 		if(this[carType].numAvailable > 0)
+			adjustAvailability();
+			
+			return(`Would you like to rent a ${carType} for $${this[carType].rentalPrice} per day?`);
 
-		
 
-			confirm(`Would you like to rent a ${carType} for $${this[carType].rentalPrice} per day?`);
-
-
-		else{
-			return `Unfortunately we're all out of ${carType}'s, please select another type of vehicle `;
-		}
+		// else{
+		// 	return `Unfortunately we're all out of ${carType}'s, please select another type of vehicle `;
+		// }
 	},
 
 }
