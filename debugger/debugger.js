@@ -1,42 +1,58 @@
-// function sumFibs(num) {
+<<<<<<< HEAD
+function fearNotLetter(str) {
 
-//   var temp = [];
-  
-//   if(num > 0){
-	
-// 	for(var i = 1; i <= num; i+=i){
+  str = str.split('');
 
-// 		temp.push(i)	
-// 	}	
-	
-//   }
-//     return temp;
+	var arr = [];
 
-//   }
+	var charCode = 0, nextCharCode = 0, nextNextCharCode = 0;
 
-// sumFibs(9);
+=======
+function steamrollArray(arr) {
 
+	var result = [];
 
+    function flatten(val){
+    	
+    	for(var i = 0; i < val.length; i++)
+        
+        if(Array.isArray(val[i]) ){
+            flatten(val[i])
+        
+        }else{
+			
+            result.push(val[i]);
+        }
+    }
 
+	flatten(arr);
 
-function sumFibs(num) {
+    return result;  
+>>>>>>> 4ec0e3ff7e4abae867ec272e309fbc5ad002b2f1
 
-  var temp = [1,1];
-  
-  if(num > 0){
-	
-	for(var i = 1; i <= num; i=temp[i]+temp[-1]){
+}
 
-		temp.push(i)
+<<<<<<< HEAD
+	for(var i in str){
+
+	arr.push(str[i].charCodeAt());
+
+	}
+
+	for(j in arr){
+
+		if(arr[j] !== arr[j-1] + 1){
+			arr.slice(1, 0, 100)
+// 			console.log(arr[j])
+		}
 		
-	}	
-	
-  }
-  
-  
-    return temp;
+	}
 
-  }
+  return arr;
+}
 
-
-sumFibs(120);
+fearNotLetter("abce");
+fearNotLetter("abce");
+=======
+steamrollArray([[1,2],[1,[1,3]]])
+>>>>>>> 4ec0e3ff7e4abae867ec272e309fbc5ad002b2f1
